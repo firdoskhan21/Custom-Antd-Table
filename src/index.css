@@ -1,0 +1,32 @@
+
+html{
+  font-family: 'Mukta', sans-serif;
+
+}
+
+tr:hover {
+  -webkit-box-shadow: inset 1px 0 0 #f1f1f1, inset -1px 0 0,
+    0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  box-shadow: inset 1px 0 0 #f1f1f1, inset -1px 0 0 #f1f1f1, 0 1px 2px 0 #f1f1f1,
+    0 1px 3px 1px #f1f1f1;
+  z-index: 1;
+}
+.ant-table-tbody
+  > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td {
+  background: none;
+}
+
+.ant-table-row::after {
+  content: ">";
+  font-family: 'Fontawsome';
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -22px;
+}
+.ant-table-thead > tr > th{
+  background: transparent;
+  font-weight:600;
+  color:rgb(0, 162, 255)
+
+}
